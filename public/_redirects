@@ -1,1 +1,1 @@
-/*  /index.html  200!
+Set-Content .\public\_redirects "/*  /index.html  200!"
