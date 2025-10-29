@@ -1,4 +1,18 @@
 @import "tailwindcss";
+:root {
+  /* значения мгновенно переопределяются ThemeProvider'ом */
+  --bg: #ffffff;
+  --text: #0b1220;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
 
 /* Светлая тема по умолчанию */
 :root {
