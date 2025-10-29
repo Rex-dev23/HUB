@@ -7,6 +7,7 @@ import TokenHubPage from './pages/TokenHubPage';
 import AuthPage from './pages/AuthPage';
 import TokenizationPage from './pages/TokenizationPage';
 import RWATokensPage from './pages/RWATokensPage';
+import DigitalAssetsPage from "./pages/DigitalAssetsPage";
 
 function NotFound() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
         <Route path="/auth" element={<AuthPage />} />
         <Route path="/tokenization" element={<TokenizationPage />} />
         <Route path="/rwa" element={<RWATokensPage />} />
+        <Route path="/cfa" element={<DigitalAssetsPage />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>

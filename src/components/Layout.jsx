@@ -73,6 +73,7 @@ export default function Layout() {
             <Link to="/tokenization" className="hover:underline">Токенизация</Link>
             <Link to="/tokenhub" className="hover:underline">Token Hub</Link>
             <Link to="/rwa" className="hover:underline">RWA</Link>
+            <Link to="/cfa" className="hover:underline">ЦФА</Link>
             <Link to="/#pricing" className="hover:underline">Тарифы</Link>
             <Link to="/#team" className="hover:underline">Команда</Link>
 
