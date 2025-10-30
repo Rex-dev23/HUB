@@ -134,6 +134,7 @@ export default function Layout() {
               <Link to="/tokenization" className="py-2">Токенизация</Link>
               <Link to="/tokenhub" className="py-2">Token Hub</Link>
               <Link to="/rwa" className="py-2">RWA</Link>
+              <Link to="/cfa" className="py-2">ЦФА</Link>
               <Link to="/#pricing" className="py-2">Тарифы</Link>
               <Link to="/#team" className="py-2">Команда</Link>
             </nav>
